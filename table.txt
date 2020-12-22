@@ -1,0 +1,21 @@
+Doctor(Doctor ID,Doctor Name,password,office Detail,Doctor specialits);
+//check availability
+DoctorAval(DoctorId,DATE);
+//location of doctor offices
+lOCATION(Doctor id,Doctor Name,Doctor Address,Doctor PostalCode);
+
+Patient(PatientId,PatientName,password,Patient Address,Patient PostalCode);
+Cashier(Cashier Id,CashierName,password);
+Adimn(AdminId,Admin Name,password);
+//booking appointment
+BookingAppointment(PatientId,BookingId,DATE,appointmentfee);
+
+onlineHelp(PatientId,Doctor ID,Doctor Name,Patient Name,Message);
+
+payment(PatientID ,PATIENT NAME,staus,total Amount);
+
+
+
+
+
+
